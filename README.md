@@ -41,6 +41,7 @@ def linear_regression(x1, y, learning_rate=0.01, num_iters=100):
         theta -= learning_rate * (1 / len(x1)) * x.T.dot(errors)
     return theta
 data = pd.read_csv('50_Startups.csv',header=None)
+print("Name: Sukirthana.M\nReg.no: 212224220112")
 print(data.head())
 x = (data.iloc[1:, :-2].values)
 print(x)
@@ -63,7 +64,7 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/a37bdda4-948d-426b-b366-e846fc53939c)
+![image](https://github.com/user-attachments/assets/433c3ea1-60f3-4b15-8f61-249983f67be1)
 ![image](https://github.com/user-attachments/assets/452d5f57-0eac-499b-b70a-c7e815833885)
 
 
